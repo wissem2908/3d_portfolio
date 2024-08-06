@@ -19,10 +19,14 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
+    
     jobit,
     tripguide,
     threejs,
+    weather_app,
+    mapApp,
+    ads,
+    map,
   } from "../assets";
   
   export const navLinks = [
@@ -182,66 +186,84 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Weather app",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that provides users with real-time weather updates, forecasts, and current conditions, ensuring you stay informed and prepared for any weather situation.",
       tags: [
         {
-          name: "react",
+          name: "api",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "jquery",
+          color: "green-text-gradient",
+        },
+      
+      ],
+      image: weather_app,
+      source_code_link: "https://github.com/wissem2908/weather-app",
+    },
+    {
+      name: "Map App",
+      description:
+        "Web-based platform that provides detailed information about each country, including currency and the most populous cities, offering an insightful and educational resource for geographic and demographic data.",
+      tags: [
+        {
+          name: "jquery",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "leaflet",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "api",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: mapApp,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Business ads website",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web-based platform that allows users to post, browse, and manage advertisements, providing a seamless and efficient solution for buying, selling, and promoting goods and services.",
       tags: [
         {
-          name: "react",
+          name: "php",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "jquery",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "sql",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: ads,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Map",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Simple map app using geojson files",
       tags: [
         {
-          name: "nextjs",
+          name: "jquery",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "leaflet",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "api",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: map,
       source_code_link: "https://github.com/",
     },
   ];
